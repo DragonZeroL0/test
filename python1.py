@@ -6,7 +6,7 @@ def name_password(data):
     # 调用js方法  第一个参数是JS的方法名，后面的data和key是js方法的参数
     return (ctx.call('encodeInp', data))
 def get_js():
-    f = open("conwork.js", 'r', encoding='utf-8')  # 打开JS文件
+    f = open("conwork.js", 'r', encoding='utf-8')  # 打开JS文件1
     line = f.readline()
     htmlstr = ''
     while line:
